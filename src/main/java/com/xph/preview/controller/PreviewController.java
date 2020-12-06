@@ -72,8 +72,8 @@ public class PreviewController {
 	 * @param response
 	 * @return
 	 */
-	@RequestMapping("preview/{fileName}")
-	public BaseReturnVO preview(@PathVariable String fileName, HttpServletResponse response) {
+	@RequestMapping("previewPDF/{fileName}")
+	public BaseReturnVO previewPDF(@PathVariable String fileName, HttpServletResponse response) {
 		InputStream in = null;
 		ServletOutputStream out = null;
 		try {

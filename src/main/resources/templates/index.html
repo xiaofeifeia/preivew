@@ -37,12 +37,6 @@
 			   <td><a href="javascript:;" onclick="previewPDF('徐工融资租赁合同（直租）-V0.8（定稿20200902）-印刷版.docx')">模板预览</a></td>
 			   <td><a href="javascript:;" onclick="fillData('徐工融资租赁合同（直租）-V0.8（定稿20200902）-印刷版.docx')">填充数据并预览</a></td>
 			</tr>
-			<tr>
-			   <td>cc数据（可以从数据库中获取，跟模板id关联）</td>
-			   <td>cc.docx</td>
-			   <td><a href="javascript:;" onclick="previewPDF('cc.docx')">模板预览</a></td>
-			   <td><a href="javascript:;" onclick="fillData('cc.docx')">填充数据并预览</a></td>
-			</tr>
 		</table>
 	</div>
 	
@@ -60,7 +54,7 @@
 			
 			$.ajax({
 				type : "GET",
-				url : "/fileList",
+				url : "fileList",
 				dataType : "json",
 				success : function(map) {
 					if (map.resCode == 200) {
@@ -86,8 +80,8 @@
 
 		function previewPDF(file) {
 		    //var contextPath = $('#contextPath').attr('href');//获取应用的根目录，我的绝对路径是http://localhost:8080/
-		    var contextPath = "http://localhost:8080";
-			window.open(encodeURI(encodeURI("pdf/web/viewer.html?file="+contextPath+"/preview/"+ file)));
+		    var contextPath = "http://localhost:8080/preview";
+			window.open(encodeURI(encodeURI("pdf/web/viewer.html?file="+contextPath+"/previewPDF/"+ file)));
 		}
 		
         function upload(){
@@ -99,7 +93,7 @@
 				data.append("files", files[i]);
 			}			
 			$.ajax({
-				url : '/upload',
+				url : 'upload',
 				type : 'POST',
 				data : data,
 				cache : false,
@@ -118,7 +112,7 @@
         
         function fillData(file) {
 		    //var contextPath = $('#contextPath').attr('href');//获取应用的根目录，我的绝对路径是http://localhost:8080/
-		    var contextPath = "http://localhost:8080";
+		    var contextPath = "http://localhost:8080/preview";
 			window.open(encodeURI(encodeURI("pdf/web/viewer.html?file="+contextPath+"/fillData/"+ file)));
 		}
 	</script>
