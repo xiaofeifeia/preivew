@@ -1,0 +1,289 @@
+2020-12-05 13:18:22.664 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'myController': Unsatisfied dependency expressed through field 'converter'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'localDocumentConverter' defined in class path resource [org/jodconverter/boot/autoconfigure/JodConverterLocalAutoConfiguration.class]: Unsatisfied dependency expressed through method 'localDocumentConverter' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'localOfficeManager' defined in class path resource [org/jodconverter/boot/autoconfigure/JodConverterLocalAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.jodconverter.office.OfficeManager]: Factory method 'localOfficeManager' threw exception; nested exception is java.lang.IllegalStateException: Invalid officeHome: it doesn't contain soffice.bin: D:\Program Files (x86)\OpenOffice 4.1.8 (zh-CN) Installation Files
+2020-12-05 13:21:11.759 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 13:23:35.828 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 12296
+2020-12-05 13:23:37.651 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 13:23:40.951 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 13:27:42.105 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 10956
+2020-12-05 13:27:43.703 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 13:27:46.689 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 13:30:49.763 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 3784
+2020-12-05 13:30:51.322 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 13:30:53.509 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 13:32:36.493 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 7076
+2020-12-05 13:32:38.030 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 13:32:40.603 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 13:37:11.923 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 13104
+2020-12-05 13:37:13.530 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 13:37:15.760 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 13:37:58.263 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 3488
+2020-12-05 13:38:00.089 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 13:38:02.488 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 13:38:44.566 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 4064
+2020-12-05 13:38:46.374 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 13:38:48.646 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 14:17:54.192 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 6160
+2020-12-05 14:17:55.921 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 14:17:58.820 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 14:19:56.774 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 7512
+2020-12-05 14:19:58.402 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 14:20:01.190 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 14:29:30.259 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 8188
+2020-12-05 14:29:31.950 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 14:29:34.967 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 14:36:31.686 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 11128
+2020-12-05 14:36:33.449 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 14:36:36.909 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 14:38:43.844 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 12588
+2020-12-05 14:38:45.507 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 14:38:47.919 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 14:43:03.091 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 2520
+2020-12-05 14:43:04.800 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 14:43:07.080 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 14:43:07.603 WARN  [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound - No mapping for GET /index.html
+2020-12-05 14:43:13.416 WARN  [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound - No mapping for GET /111.docx
+2020-12-05 14:43:24.501 WARN  [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound - No mapping for GET /index.html
+2020-12-05 14:43:39.043 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 8780
+2020-12-05 14:43:40.778 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 14:43:43.197 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 14:49:57.786 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 2644
+2020-12-05 14:49:59.490 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 14:50:02.463 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 14:52:25.467 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 2276
+2020-12-05 14:52:27.096 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 14:52:29.238 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 14:54:29.429 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 9352
+2020-12-05 14:54:31.301 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 14:54:34.132 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 15:11:34.845 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 14148
+2020-12-05 15:11:36.526 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 15:11:38.920 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 15:17:44.130 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 13656
+2020-12-05 15:17:45.754 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 15:17:48.624 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 15:25:54.358 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 14932
+2020-12-05 15:25:56.004 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 15:25:59.500 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 15:44:09.617 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 12484
+2020-12-05 15:44:11.332 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 15:44:14.278 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 15:45:01.007 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 1944
+2020-12-05 15:45:02.918 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 15:45:06.294 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 15:55:35.314 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 556
+2020-12-05 15:55:36.906 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 15:55:39.745 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 15:56:44.099 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 13640
+2020-12-05 15:56:45.784 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 15:56:48.150 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:12:15.943 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 1756
+2020-12-05 16:12:17.558 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:12:19.902 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:14:25.235 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 12876
+2020-12-05 16:14:26.925 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:14:29.720 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:16:24.619 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 12808
+2020-12-05 16:16:26.246 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:16:29.228 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:18:15.012 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 10112
+2020-12-05 16:18:16.636 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:18:18.850 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:30:18.263 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 9308
+2020-12-05 16:30:19.883 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:30:22.370 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:39:44.000 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 11236
+2020-12-05 16:39:45.636 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:39:48.486 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:40:26.262 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 16004
+2020-12-05 16:40:27.909 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:40:30.204 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:41:20.123 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 16332
+2020-12-05 16:41:21.821 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:41:24.866 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:43:30.927 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 9856
+2020-12-05 16:43:32.660 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:43:35.642 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:45:49.089 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 13960
+2020-12-05 16:45:50.773 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:45:54.021 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:46:31.772 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 15772
+2020-12-05 16:46:33.477 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:46:36.750 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:47:57.339 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 8504
+2020-12-05 16:47:58.942 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:48:01.807 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:51:17.580 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 10872
+2020-12-05 16:51:19.269 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:51:21.757 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 16:52:29.703 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 15436
+2020-12-05 16:52:31.315 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 16:52:33.657 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:09:22.826 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 7108
+2020-12-05 17:09:24.509 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:09:26.808 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:13:12.329 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 14412
+2020-12-05 17:13:13.934 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:13:16.158 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:18:56.648 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 8380
+2020-12-05 17:18:58.327 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:19:00.489 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:19:37.825 WARN  [http-nio-8080-exec-6] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler public com.xph.preview.model.BaseReturnVO com.xph.preview.exception.MessageExceptionHandler.handle(java.lang.Exception,javax.servlet.http.HttpServletRequest)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:776)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:681)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:386)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:364)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator._flushBuffer(UTF8JsonGenerator.java:2085)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1097)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:122)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:408)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:140)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:79)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1298)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1110)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:140)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1261)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:793)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:563)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:501)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:538)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:110)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:190)
+	at org.apache.coyote.Response.doWrite(Response.java:601)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:339)
+	... 64 common frames omitted
+2020-12-05 17:25:28.862 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 16368
+2020-12-05 17:25:30.512 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:25:33.336 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:27:03.451 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 2352
+2020-12-05 17:27:05.094 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:27:07.381 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:33:55.810 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 17228
+2020-12-05 17:33:57.478 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:34:00.349 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:34:56.378 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 16568
+2020-12-05 17:34:58.036 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:35:01.024 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:37:22.444 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 12944
+2020-12-05 17:37:24.576 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:37:28.943 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:40:09.284 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 14108
+2020-12-05 17:40:10.909 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:40:13.372 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:43:53.323 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 16300
+2020-12-05 17:43:54.983 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:43:57.189 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:48:05.115 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 17368
+2020-12-05 17:48:06.758 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:48:09.283 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:50:28.855 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 11236
+2020-12-05 17:50:30.613 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:50:34.268 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:52:05.564 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 11512
+2020-12-05 17:52:07.276 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:52:10.348 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:57:01.817 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 16816
+2020-12-05 17:57:03.612 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:57:07.328 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 17:58:02.299 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 2284
+2020-12-05 17:58:04.246 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 17:58:08.192 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:01:18.642 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 7856
+2020-12-05 18:01:20.622 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:01:24.656 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:04:32.508 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 2708
+2020-12-05 18:04:34.267 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:04:37.421 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:05:03.340 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 15748
+2020-12-05 18:05:05.004 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:05:08.005 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:07:48.205 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 3524
+2020-12-05 18:07:49.964 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:07:53.406 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:09:49.205 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 6168
+2020-12-05 18:09:50.958 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:09:54.166 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:10:47.717 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 16392
+2020-12-05 18:10:49.399 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:10:51.700 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:14:06.460 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 13952
+2020-12-05 18:14:08.055 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:14:10.621 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:14:39.219 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 9852
+2020-12-05 18:14:40.902 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:14:43.247 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:17:02.776 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 17156
+2020-12-05 18:17:04.462 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:17:07.443 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:19:37.515 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 16628
+2020-12-05 18:19:39.171 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:19:42.150 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:22:52.591 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 15736
+2020-12-05 18:22:54.282 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:22:57.067 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:48:13.679 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 15588
+2020-12-05 18:48:15.788 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:48:19.400 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-12-05 18:48:39.868 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - A process with acceptString 'socket,host=127.0.0.1,port=8100,tcpNoDelay=1;urp;StarOffice.ServiceManager' is already running; pid 17108
+2020-12-05 18:48:41.751 WARN  [OfficeProcessThread-0] o.jodconverter.office.OfficeProcess - Profile dir 'C:\Users\ADMINI~1.DES\AppData\Local\Temp\.jodconverter_socket_host-127.0.0.1_port-8100_tcpNoDelay-1' already exists; deleting
+2020-12-05 18:48:44.888 WARN  [main] o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8" />
+<title>在线预览</title>
+</head>
+<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+<body>
+	<div>
+		模板文件列表：
+		<form id="fileUploadForm" method="post" enctype="multipart/form-data">
+			<input type="file" id="file" multiple/>  
+			<button type="button" onclick="upload()">上传模板</button>
+		</form>	
+
+		<table border="1" id="fileTable" style="margin: 60px 0px;width:600px">
+			<tr>
+				<th>模板名</th>
+				<th>操作</th>
+			</tr>
+		</table>
+	</div>
+	
+	
+	<div>
+		数据列表：
+		<table border="1" id="dataTable" style="margin: 0px;width:800px">
+			<tr>
+				<th>数据</th>
+				<th>模板</th>
+				<th colspan="2">操作</th>
+			</tr>
+			<tr>
+			   <td>徐工融资租赁合同数据（可以从数据库中获取，跟模板id关联）</td>
+			   <td>徐工融资租赁合同（直租）-V0.8（定稿20200902）-印刷版.docx</td>
+			   <td><a href="javascript:;" onclick="previewPDF('徐工融资租赁合同（直租）-V0.8（定稿20200902）-印刷版.docx')">模板预览</a></td>
+			   <td><a href="javascript:;" onclick="fillData('徐工融资租赁合同（直租）-V0.8（定稿20200902）-印刷版.docx')">填充数据并预览</a></td>
+			</tr>
+			<tr>
+			   <td>cc数据（可以从数据库中获取，跟模板id关联）</td>
+			   <td>cc.docx</td>
+			   <td><a href="javascript:;" onclick="previewPDF('cc.docx')">模板预览</a></td>
+			   <td><a href="javascript:;" onclick="fillData('cc.docx')">填充数据并预览</a></td>
+			</tr>
+		</table>
+	</div>
+	
+	
+<!-- 获取上下文 -->
+<!-- <a th:href="${#httpServletRequest.getScheme() + '://' + #httpServletRequest.getServerName() + ':' + #request.getServerPort()  + #request.getContextPath()} "
+ id="contextPath"></a> -->
+ 
+<script>
+
+</script>
+	<script>
+		fileList();
+		function fileList() {
+			
+			$.ajax({
+				type : "GET",
+				url : "/fileList",
+				dataType : "json",
+				success : function(map) {
+					if (map.resCode == 200) {
+						var html =  '<tr>'
+									+'<th>模板名</th>'
+									+'<th>操作</th>'
+								    +'</tr>';
+						for (var i = 0; i < map.data.length; i++) {
+							var file = map.data[i];
+							html += '<tr><td>'
+									+ file
+									+ '</td><td><a href="javascript:;" onclick="previewPDF(\''
+									+ file + '\')">在线预览</a></td></tr>';
+						}
+						$("#fileTable").html(html);
+					} else {
+						alert(map.resDes);
+					}
+				}
+			})
+
+		}
+
+		function previewPDF(file) {
+		    //var contextPath = $('#contextPath').attr('href');//获取应用的根目录，我的绝对路径是http://localhost:8080/
+		    var contextPath = "http://localhost:8080";
+			window.open(encodeURI(encodeURI("pdf/web/viewer.html?file="+contextPath+"/preview/"+ file)));
+		}
+		
+        function upload(){
+        	
+        	var files = $('#file').prop('files');
+        	
+			var data = new FormData();
+			for (var i = 0 ; i < files.length ; i++) {
+				data.append("files", files[i]);
+			}			
+			$.ajax({
+				url : '/upload',
+				type : 'POST',
+				data : data,
+				cache : false,
+				processData : false,
+				contentType : false,
+				success : function(map) {
+					if(map.resCode==200){
+						alert("上传成功");
+						fileList();
+					}else{
+						alert(map.resDes);
+					}
+				}
+			});
+        }
+        
+        function fillData(file) {
+		    //var contextPath = $('#contextPath').attr('href');//获取应用的根目录，我的绝对路径是http://localhost:8080/
+		    var contextPath = "http://localhost:8080";
+			window.open(encodeURI(encodeURI("pdf/web/viewer.html?file="+contextPath+"/fillData/"+ file)));
+		}
+	</script>
+</body>
+</html>
