@@ -46,6 +46,7 @@ public class UploadController {
 					newFile.mkdirs();
 				}
 				File dest = new File(newFile.getAbsolutePath() + File.separator + fileName);
+				dest.deleteOnExit();// 如果存在删除
 				file.transferTo(dest);
 			}
 		} catch (IOException e) {

@@ -81,7 +81,7 @@ public class PreviewController {
 				throw new MessageException("fileName 参数为空");
 			}
 
-			String outFilePath = fileService.convertPDF(fileName, uploadFilePath, false);
+			String outFilePath = fileService.convertPDF(fileName, uploadFilePath, true);
 
 			out = response.getOutputStream();
 

@@ -52,7 +52,6 @@ public class FillDataController {
 	public BaseReturnVO fillData(@PathVariable String fileName, HttpServletResponse response) {
 		// 没时间搞啦，我这里写死docx，你可以传入这行数据的id，从数据库获取模板id
 		// 要建立三个表一个数据tb_data表，模板表tb_template，还有一个模板参数表tb_template_param
-		fileName = "徐工融资租赁合同（直租）-V0.8（定稿20200902）-印刷版.docx";
 		String templatePath = uploadFilePath + File.separator + fileName;
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("number", 123456);
