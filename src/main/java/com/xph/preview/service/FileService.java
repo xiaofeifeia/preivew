@@ -6,6 +6,7 @@ import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 import org.jodconverter.DocumentConverter;
+import org.jodconverter.document.DefaultDocumentFormatRegistry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -70,6 +71,7 @@ public class FileService {
 
 			if (force || !pdfFile.exists()) {
 				// 文件转化
+				//converter.convert(file).as(DefaultDocumentFormatRegistry.DOCX).to(pdfFile).as(DefaultDocumentFormatRegistry.PDF).execute();
 				converter.convert(file).to(pdfFile).execute();
 			}
 		} else {
